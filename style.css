@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(123, 137, 109);
+  /* background-image: url('trotineta.jpg'); */
+}
+
+header {
+  background-color: #325236;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+main {
+  padding: 20px;
+}
+/* Styling for the Reserve a Scooter page */
+
+/* Form container */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Form elements */
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='date'] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#btn1 {
+  background-color: #92c7b3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#btn1:hover {
+  background-color: #2c684a;
+}
+
+/* Error messages */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Success message */
+.success {
+  color: green;
+  font-size: 14px;
+  margin-top: 5px;
+}
+h2 {
+  color: #072416;
+  text-align: center;
+}
+p {
+  color: #325236;
+}

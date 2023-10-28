@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gestionare Trotinete pe Ore și Zile</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Gestionare Trotinete pe Ore și Zile</h1>
+    <div id="info">
+      <!-- Informații despre gestionarea trotinetelor pe ore și zile -->
+      <p>
+        Numărul de trotinete disponibile: <span id="numar-trotinete">10</span>
+      </p>
+      <p>Nivel de baterie: <span id="nivel-baterie">charged</span></p>
+    </div>
+
+    <h2>Rezervare Trotinetă pe Ore și Zile</h2>
+    <form id="rezervare-form">
+      <label for="nume">Nume:</label>
+      <input type="text" id="nume" required /><br /><br />
+
+      <label for="data">Ziua rezervării:</label>
+      <input type="date" id="zi" required /><br /><br />
+
+      <label for="ora">Ora rezervării:</label>
+      <input type="time" id="ora" required /><br /><br />
+
+      <button type="submit">Rezervă Trotinetă</button>
+    </form>
+    <p id="rezultat"></p>
+
+    <a href="index.html">Reveniți la Pagina de Rezervare</a>
+    <script src="script.js"></script>
+  </body>
+</html>
